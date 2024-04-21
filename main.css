@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+ }
+ 
+ body{
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+   background: url('images/background.jpg') no-repeat;
+   background-size: cover;
+   padding-top: 100px;  
+ }
+ 
+ header{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 40px;
+ }
+ 
+ header h1{
+   font-family:'Protest Riot', sans-serif;
+   font-size: 60px;
+   font-weight: bold; 
+   color:#FDE9E2;
+ }
+ 
+ .container{
+   width: 100%;
+   display: flex;
+   flex-direction: column; 
+   justify-content: center; 
+   align-items: center; 
+ }
+ 
+ .tabela{
+   width: 600px;
+   margin: 0 auto;
+   justify-content: center;
+   align-items: center; 
+   background-color: #403B3B;
+   backdrop-filter: blur(20px);
+   border-radius: 20px;
+   padding: 30px;
+   box-shadow: 2px 2px 5px white;
+ }
+ 
+ form{
+   display: flex;
+   max-width: 600px;
+   width: 100%;
+   justify-content: space-between;
+   margin-bottom: 30px;  
+ }
+ 
+ form input{
+   font-size: 16px;
+   background-color: #FEF8EF;
+   border-radius:20px;
+   border: none;
+   padding: 8px;
+ }
+ 
+ form button{
+   background:#B07BAB;
+   height:50px;
+   width:50px;
+   border-radius:50%;
+   color: #403B3B;
+   Font-size: 24px;
+   font-weight: bold;
+   border: none;
+   cursor: pointer;
+ }
+ 
+ table{ 
+   text-align: left;
+   border-collapse: separate;
+   border-spacing: 0px 20px; 
+   font-weight: bold; 
+ }
+
+ table th {
+    text-align: left;
+    border-bottom: 2px solid #FEF8EF ;
+    font-size: 16px;
+    color:#FEF8EF;   
+ }
+ 
+ table td{
+   background-color:#B07BAB;
+   color:#000;
+   font-size:16px;
+   justify-content:space-between;
+   padding:10px; 
+ }
+ 
+ table td:nth-child(1) {
+    width: 260px;
+    border-radius: 30px 0px 0px 30px;
+    border-bottom: 1px solid #FEF8EF;
+    border-top: 1px solid #FEF8EF;
+    border-left: 1px solid #FEF8EF;
+ }
+ 
+ table td:nth-child(2) {
+     width: 200px;
+     border-radius: 0px;
+     border-bottom: 1px solid #FEF8EF;
+     border-top: 1px solid #FEF8EF; 
+ }
+ 
+ table td:nth-child(3) {
+    width: 100px;
+    border-radius: 0px 30px 30px 0px;
+    text-align: right;
+    border-bottom: 1px solid #FEF8EF;
+    border-top: 1px solid #FEF8EF;
+    border-right: 1px solid #FEF8EF;
+ }
+ 
+ table th:nth-child(1) {
+    width: 260px;
+ }
+ 
+ table th:nth-child(2) {
+     width: 200px;
+   
+ }
+ 
+ table th:nth-child(3) {
+     width: 100px;
+ 
+ }
